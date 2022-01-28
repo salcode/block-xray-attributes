@@ -1,7 +1,17 @@
 import PropTypes from 'prop-types';
 
-export default function JavaScriptObject() {
-  return <h5>JavaScript Object</h5>;
+const pretty = (object) => {
+  return JSON.stringify(object, null, 2);
+};
+
+export default function JavaScriptObject({ object }) {
+  return (
+    <pre>
+      <code>
+        {pretty(object)}
+      </code>
+    </pre>
+  );
 }
 
 JavaScriptObject.propTypes = {
