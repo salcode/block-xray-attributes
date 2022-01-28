@@ -15,6 +15,8 @@
  * Domain Path:       /languages
  */
 
+namespace salcode\BlockXrayAttributes;
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
