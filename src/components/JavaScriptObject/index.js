@@ -5,8 +5,8 @@ const pretty = (object) => {
 };
 
 const codeStyles = {
+  backgroundColor: 'transparent',
   display: 'block',
-  whiteSpace: 'pre-wrap',
 };
 
 export default function JavaScriptObject({ object }) {
