@@ -99,6 +99,9 @@ Thumbs.db
 *.key
 *.pem
 
+# Ignore /build directory.
+/build
+
 # --------------------------------------------------------
 # BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
 # --------------------------------------------------------
