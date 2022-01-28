@@ -7,6 +7,7 @@ const pretty = (object) => {
 const codeStyles = {
   backgroundColor: 'transparent',
   display: 'block',
+  overflow: 'auto',
 };
 
 export default function JavaScriptObject({ object }) {
