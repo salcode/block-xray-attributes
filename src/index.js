@@ -5,7 +5,12 @@ registerPlugin(
   'block-xray-attributes',
   {
     render: () => {
-      console.log('plugin block-xray-attributes render()');
+      return <PluginDocumentSettingPanel
+        icon="code-standards"
+        title="Block X-ray"
+      >
+        <p>Sidebar content for Block X-ray Attributes plugin</p>
+      </PluginDocumentSettingPanel>;
     }
   },
 );
