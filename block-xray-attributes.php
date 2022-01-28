@@ -38,5 +38,9 @@ function enqueue_editor_assets() {
 	wp_enqueue_script( 'block-xray-attributes' );
 }
 
+add_action('plugins_loaded', function() {
+    load_plugin_textdomain( 'block-xray-attributes', false, __DIR__ );
+});
+
 add_action( 'init', __NAMESPACE__ . '\register_assets' );
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_editor_assets' );
