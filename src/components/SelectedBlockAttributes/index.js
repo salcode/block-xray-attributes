@@ -1,7 +1,9 @@
-import { select } from '@wordpress/data';
+import { useSelect } from '@wordpress/data';
 
 export default function SelectedBlockAttributes() {
-  const selectedBlock = select('core/block-editor').getSelectedBlock();
+  const selectedBlock = useSelect(
+    (select) => select('core/block-editor').getSelectedBlock()
+  );
   console.log(selectedBlock);
   if (! selectedBlock) {
     return <p>No block is selected.</p>;
