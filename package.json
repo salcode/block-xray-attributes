@@ -4,6 +4,8 @@
   "description": "Shows the attributes of the current Gutenberg block in the Document sidebar.",
   "main": "index.js",
   "scripts": {
+    "build": "wp-scripts build",
+    "dev": "wp-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sal Ferrarello",
