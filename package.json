@@ -2,7 +2,7 @@
   "name": "block-xray-attributes",
   "version": "0.1.0",
   "description": "Shows the attributes of the current Gutenberg block in the Document sidebar.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "wp-scripts build",
     "dev": "wp-scripts start",
