@@ -1,5 +1,7 @@
 import { useSelect } from '@wordpress/data';
 
+import JavaScriptObject from '../JavaScriptObject';
+
 export default function SelectedBlockAttributes() {
   const selectedBlock = useSelect(
     (select) => select('core/block-editor').getSelectedBlock()
@@ -9,6 +11,8 @@ export default function SelectedBlockAttributes() {
     return <p>No block is selected.</p>;
   }
   return (
-    <p>Selected block attributes {selectedBlock?.name}</p>
+    <JavaScriptObject
+      object={selectedBlock}
+    />
   );
 }
