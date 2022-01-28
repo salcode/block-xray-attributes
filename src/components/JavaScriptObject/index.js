@@ -4,10 +4,15 @@ const pretty = (object) => {
   return JSON.stringify(object, null, 2);
 };
 
+const codeStyles = {
+  display: 'block',
+  whiteSpace: 'pre-wrap',
+};
+
 export default function JavaScriptObject({ object }) {
   return (
     <pre>
-      <code>
+      <code style={codeStyles}>
         {pretty(object)}
       </code>
     </pre>
