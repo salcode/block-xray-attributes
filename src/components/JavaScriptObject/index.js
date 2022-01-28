@@ -5,7 +5,6 @@ const pretty = (object) => {
 };
 
 const codeStyles = {
-  backgroundColor: 'transparent',
   display: 'block',
   overflow: 'auto',
 };
