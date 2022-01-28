@@ -1,3 +1,4 @@
+import { PluginDocumentSettingPanel } from '@wordpress/edit-post';
 import { registerPlugin } from '@wordpress/plugins';
 
 registerPlugin(
