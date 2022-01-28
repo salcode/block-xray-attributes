@@ -19,3 +19,18 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
+
+function register_assets() {
+	$asset_file = include plugin_dir_path( __FILE__ ) . 'build/index.asset.php';
+
+	wp_register_script(
+		'block-xray-attributes',
+		plugins_url( 'build/index.js', __FILE__ ),
+		$asset_file['dependencies'],
+		$asset_file['version'],
+		true
+	);
+	wp_enqueue_script( 'block-xray-attributes' );
+}
+
+add_action( 'init', __NAMESPACE__ . '\register_assets' );
