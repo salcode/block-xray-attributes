@@ -21,3 +21,9 @@ This plugin adds a section called "Block X-ray" to the Document sidebar in the e
 ### Where is this plugin developed?
 
 Development of this code happens at [github.com/salcode/block-xray-attributes](https://github.com/salcode/block-xray-attributes)
+
+## Changelog
+
+### 1.0.0
+
+* Initial release
