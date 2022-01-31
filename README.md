@@ -14,7 +14,7 @@ This plugin adds a section called "Block X-ray" to the Document sidebar in the e
 
 ## Screenshots
 
-1. The **Block X-ray** section in the document sidebar<br>![The Block X-ray section in the document sidebar](.wordpress-org/block-xray-attributes.png)
+1. The **Block X-ray** section in the document sidebar<br>![The Block X-ray section in the document sidebar](.wordpress-org/screenshot-1.png)
 
 ## Frequently Asked Questions
 
