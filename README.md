@@ -1,7 +1,7 @@
 # Block X-ray Attributes
 
 Stable Tag: 1.0.0  
-Requires at least: 5.8  
+Requires at least: 5.5  
 Tested up to: 5.9  
 Requires PHP: 7.2  
 License: GPL v2 or later  
@@ -23,6 +23,10 @@ This plugin adds a section called "Block X-ray" to the Document sidebar in the e
 Development of this code happens at [github.com/salcode/block-xray-attributes](https://github.com/salcode/block-xray-attributes)
 
 ## Changelog
+
+### Unreleased
+
+* Change "Requires at least" to `5.5`
 
 ### 1.0.0
 
