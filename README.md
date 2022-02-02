@@ -1,6 +1,6 @@
 # Block X-ray Attributes
 
-Stable Tag: 1.0.0  
+Stable Tag: 1.1.0  
 Requires at least: 5.5  
 Tested up to: 5.9  
 Requires PHP: 7.2  
@@ -24,7 +24,7 @@ Development of this code happens at [github.com/salcode/block-xray-attributes](h
 
 ## Changelog
 
-### Unreleased
+### 1.1.0
 
 * Change "Requires at least" to `5.5`
 * Rename `SelectedBlockAttributes` component to `BlockXray`
