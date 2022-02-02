@@ -27,6 +27,7 @@ Development of this code happens at [github.com/salcode/block-xray-attributes](h
 ### Unreleased
 
 * Change "Requires at least" to `5.5`
+* Rename `SelectedBlockAttributes` component to `BlockXray`
 
 ### 1.0.0
 

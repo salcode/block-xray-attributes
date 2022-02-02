@@ -1,7 +1,7 @@
 import { PluginDocumentSettingPanel } from '@wordpress/edit-post';
 import { __ } from '@wordpress/i18n';
 
-import SelectedBlockAttributes from '../SelectedBlockAttributes';
+import BlockXray from '../BlockXray';
 
 export default function BlockXrayPanel() {
   return (
@@ -9,7 +9,7 @@ export default function BlockXrayPanel() {
       icon="code-standards"
       title={__( 'Block X-ray', 'block-xray-attributes' )}
     >
-      <SelectedBlockAttributes />
+      <BlockXray />
     </PluginDocumentSettingPanel>
   );
 }
