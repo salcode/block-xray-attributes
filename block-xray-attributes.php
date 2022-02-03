@@ -10,7 +10,6 @@
  * Author URI:        https://salferrarello.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Update URI:        https://github.com/salcode/block-xray-attributes
  * Text Domain:       block-xray-attributes
  * Domain Path:       /languages
  */
