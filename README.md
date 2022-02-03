@@ -1,6 +1,6 @@
 # Block X-ray Attributes
 
-Stable Tag: 1.1.0  
+Stable Tag: 1.1.1  
 Requires at least: 5.5  
 Tested up to: 5.9  
 Requires PHP: 7.2  
@@ -34,7 +34,7 @@ Once you move beyond version `1.1.0`, you should no longer experience this probl
 
 ## Changelog
 
-### Unreleased
+### 1.1.1
 
 * Remove "Update URI" from plugin headers
 

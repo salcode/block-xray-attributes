@@ -1,6 +1,6 @@
 {
   "name": "block-xray-attributes",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shows the attributes of the current Gutenberg block in the Document sidebar.",
   "main": "build/index.js",
   "scripts": {
