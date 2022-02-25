@@ -11,11 +11,13 @@ const codeStyles = {
 
 export default function JavaScriptObject({ object }) {
   return (
-    <pre>
-      <code style={codeStyles}>
-        {pretty(object)}
-      </code>
-    </pre>
+    <>
+      <pre>
+        <code style={codeStyles}>
+          {pretty(object)}
+        </code>
+      </pre>
+    </>
   );
 }
 
