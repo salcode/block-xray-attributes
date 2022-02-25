@@ -1,7 +1,9 @@
+import { __ } from '@wordpress/i18n';
+
 export default function CopyButton() {
   return (
     <button>
-      Copy Block Data
+      {__( 'Copy Block Data', 'block-xray-attributes' )}
     </button>
   );
 }
