@@ -34,6 +34,10 @@ Once you move beyond version `1.1.0`, you should no longer experience this probl
 
 ## Changelog
 
+### Unreleased
+
+* Add `Copy Block Data` button ([#17 Add button to copy data](https://github.com/salcode/block-xray-attributes/issues/17))
+
 ### 1.1.1
 
 * Remove "Update URI" from plugin headers
