@@ -20,7 +20,9 @@ export default function JavaScriptObject({ object }) {
           {prettyCode}
         </code>
       </pre>
-      <CopyButton />
+      <CopyButton
+        content={prettyCode}
+      />
     </>
   );
 }
