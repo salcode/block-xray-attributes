@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 
+import CopyButton from '../CopyButton';
+
 const pretty = (object) => {
   return JSON.stringify(object, null, 2);
 };
@@ -17,6 +19,7 @@ export default function JavaScriptObject({ object }) {
           {pretty(object)}
         </code>
       </pre>
+      <CopyButton />
     </>
   );
 }
