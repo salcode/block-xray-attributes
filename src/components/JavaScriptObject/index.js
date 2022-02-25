@@ -12,11 +12,12 @@ const codeStyles = {
 };
 
 export default function JavaScriptObject({ object }) {
+  const prettyCode = pretty(object);
   return (
     <>
       <pre>
         <code style={codeStyles}>
-          {pretty(object)}
+          {prettyCode}
         </code>
       </pre>
       <CopyButton />
