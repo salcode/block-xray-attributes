@@ -19,6 +19,7 @@ export default function ModernCopyButton({
   const ref = useCopyToClipboard(content, onCopySuccess);
   return (
     <button
+      className="components-button is-secondary"
       ref={ref}
     >
       {__( 'Copy Block Data', 'block-xray-attributes' )}

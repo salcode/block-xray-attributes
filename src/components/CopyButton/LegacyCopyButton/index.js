@@ -14,7 +14,7 @@ export default function LegacyCopyButton({
   const [ hasCopied, setHasCopied ] = useState( false );
   return (
     <ClipboardButton
-      className="is-primary"
+      className="is-secondary"
       text={content}
       onCopy={ () => setHasCopied( true ) }
       onFinishCopy={ () => setHasCopied( false ) }
