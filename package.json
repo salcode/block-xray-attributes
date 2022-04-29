@@ -11,6 +11,6 @@
   "author": "Sal Ferrarello",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
-    "@wordpress/scripts": "^20.0.1"
+    "@wordpress/scripts": "^22.5.0"
   }
 }
