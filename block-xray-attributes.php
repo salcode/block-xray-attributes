@@ -3,7 +3,7 @@
  * Plugin Name:       Block X-ray Attributes
  * Plugin URI:        https://github.com/salcode/block-xray-attributes
  * Description:       Shows the attributes of the current Gutenberg block in the Document sidebar.
- * Version:           1.1.1
+ * Version:           1.2.0
  * Requires at least: 5.5
  * Requires PHP:      7.2
  * Author:            Sal Ferrarello

@@ -1,6 +1,6 @@
 # Block X-ray Attributes
 
-Stable Tag: 1.1.1  
+Stable Tag: 1.2.0  
 Requires at least: 5.5  
 Tested up to: 5.9  
 Requires PHP: 7.2  
@@ -34,7 +34,7 @@ Once you move beyond version `1.1.0`, you should no longer experience this probl
 
 ## Changelog
 
-### Unreleased
+### 1.2.0
 
 * Add `Copy Block Data` button ([#17 Add button to copy data](https://github.com/salcode/block-xray-attributes/issues/17))
 * Update `@wordpress/scripts` from `20.0.1` to `22.5.0` ([#23 Update @wordpress/scripts to latest version](https://github.com/salcode/block-xray-attributes/issues/23))
