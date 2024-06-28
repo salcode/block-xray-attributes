@@ -1,6 +1,6 @@
 # Block X-ray Attributes
 
-Stable Tag: 1.2.0  
+Stable Tag: 1.2.1  
 Requires at least: 5.5  
 Tested up to: 5.9  
 Requires PHP: 7.2  
@@ -38,7 +38,7 @@ The banner and icon assets were created from the [Medical Xray SVG Vector](https
 
 ## Changelog
 
-### Unreleased
+### 1.2.1
 
 * Add Banner and Icon assets (see [How Your Plugin Assets Work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/) from the WordPress Plugin Handbook)
 
