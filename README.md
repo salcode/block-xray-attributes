@@ -32,7 +32,15 @@ If you are stuck on version `1.1.0` and want the latest version, you should `Del
 
 Once you move beyond version `1.1.0`, you should no longer experience this problem.
 
+### Where did you get your graphics?
+
+The banner and icon assets were created from the [Medical Xray SVG Vector](https://www.svgrepo.com/svg/444138/medical-xray) by Diemen Design and are licensed under the MIT License.
+
 ## Changelog
+
+### Unreleased
+
+* Add Banner and Icon assets (see [How Your Plugin Assets Work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/) from the WordPress Plugin Handbook)
 
 ### 1.2.0
 
