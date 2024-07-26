@@ -38,6 +38,10 @@ The banner and icon assets were created from the [Medical Xray SVG Vector](https
 
 ## Changelog
 
+### Unreleased
+
+* Bump node version from `12` to `22` for compability with the latest version of `@wordpress/scripts`
+
 ### 1.2.1
 
 * Add Banner and Icon assets (see [How Your Plugin Assets Work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/) from the WordPress Plugin Handbook)
