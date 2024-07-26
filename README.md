@@ -42,6 +42,7 @@ The banner and icon assets were created from the [Medical Xray SVG Vector](https
 
 * Bump node version from `12` to `22` for compability with the latest version of `@wordpress/scripts`
 * Update `@wordpress/scripts` from `22.5.0` to latest version `28.4.0`
+* Change source for `PluginDocumentSettingPanel` from `@wordpress/edit-post` to `@wordpress/editor` ([#31](https://github.com/salcode/block-xray-attributes/issues/31))
 
 ### 1.2.1
 
