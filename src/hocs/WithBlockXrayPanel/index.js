@@ -10,7 +10,10 @@ export default function WithBlockXrayPanel(WrappedComponent) {
           {...props}
         />
         <InspectorControls>
-          <PanelBody title={__('Xray', 'example')}>
+          <PanelBody
+            icon="code-standards"
+            title={__('Block X-ray', 'block-xray-attributes')}
+          >
             <h2>salcode</h2>
           </PanelBody>
         </InspectorControls>
