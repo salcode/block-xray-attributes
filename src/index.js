@@ -1,10 +1,7 @@
-import { registerPlugin } from '@wordpress/plugins';
+import WithBlockXrayPanel from './hocs/WithBlockXrayPanel';
 
-import BlockXrayPanel from './components/BlockXrayPanel';
-
-registerPlugin(
+wp.hooks.addFilter(
+  'editor.BlockEdit',
   'block-xray-attributes',
-  {
-    render: () => <BlockXrayPanel />
-  },
+  WithBlockXrayPanel
 );
