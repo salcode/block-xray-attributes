@@ -1,16 +1,6 @@
-/* global wp */
-
-const {
-  components: {
-    PanelBody,
-  },
-  editor: {
-    InspectorControls,
-  },
-  i18n: {
-    __,
-  },
-} = wp;
+import { PanelBody } from '@wordpress/components';
+import { InspectorControls } from '@wordpress/editor';
+import { __ } from '@wordpress/i18n';
 
 export default function WithBlockXrayPanel(WrappedComponent) {
   return props => {
